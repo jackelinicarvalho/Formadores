@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#f4f4f4;
+color:#333;
+line-height:1.6;
+padding-left: 20px;
+}
+
+header{
+background:#2C3E50;
+color:white;
+text-align:center;
+padding:35px;
+}
+
+.subtitulo{font-size:22px;}
+
+nav{
+background:#E67E22;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.banner,.caixa{
+background:white;
+width:85%;
+margin:30px auto;
+padding:25px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+
+img[alt="Estudantes"] {
+  display: block;
+  width: 70%;
+  border-radius: 8px;
+  margin: 15px auto;
+}
+
+img[alt="Grupo de estudantes"] {
+    width:40%;
+border-radius:8px;
+margin:15px 0;
+}
+
+img[alt="Projeto Integrador"] {
+    width:40%;
+border-radius:8px;
+margin:15px 0;
+}
+
+img[alt="Curso técnico"] {
+    width:40%;
+border-radius:8px;
+margin:15px 0;
+}
+
+img[alt="06 formatura"] {
+    width:40%;
+border-radius:8px;
+margin:15px 0;
+}
+
+img[alt="07-rodape"] {
+    width:50%;
+border-radius:8px;
+margin:15px 0;
+}
+
+h2{
+color:#2C3E50;
+}
+
+.cards-jornada{
+display:flex;
+justify-content:space-between;
+gap:20px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.card-jornada{
+background:white;
+width:220px;
+padding:20px;
+text-align:center;
+border-radius:12px;
+box-shadow:0 3px 8px rgba(0,0,0,0.15);
+}
+
+.card-jornada img{
+width:120px;
+margin-bottom:15px;
+}
+
+.card-jornada h3{
+color:#2C3E50;
+margin-bottom:10px;
+}
+
+.card-jornada p{
+font-size:15px;
+line-height:1.5;
+}
+
+footer{
+background:#2C3E50;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
